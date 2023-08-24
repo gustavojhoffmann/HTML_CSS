@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Imagens</title>
+</head>
+<body>
+    <h1>Trabalhando com Dimencionamento de Imagens</h1>
+    <p>Você pode abrir esse site em diferentes dispositivos ou até mesmo aumentar ou diminuir o tamanho ou zoom do navegador que a imagem irá se adaptar</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem grande">
+    </picture>
+
+</body>
+</html>

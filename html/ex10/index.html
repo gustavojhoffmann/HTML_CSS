@@ -15,5 +15,13 @@
         <img src="imagens/imagem-g.png" alt="imagem grande">
     </picture>
 
+    <h1>Trabalhando com áudio</h1>
+    <audio src="midia/som-ambiente.mp3" controls></audio> <!--Essa forma funciona, mas você pode ficar limitado a certos navegadores, por isso é mais seguro o metodo abaixo-->
+    <audio autoplay loop controls >
+        <source src="midia/som-ambiente.mp3" type="audio/mpeg"> <!--audio precisa estar em formato MP3-->
+        <source src="midia/som-ambiente.mp3" type="audio/ogg">  <!--audio precisa estar em formato OGG-->
+        <source src="midia/som-ambiente.mp3" type="audio/wav">  <!--audio precisa estar em formato WAV-->
+        <p>O seu navegador não é compativel com este audio <a href="midia/som-ambiente.mp3">Clique aqui</a> para baixar</p>
+    </audio>
 </body>
 </html>
